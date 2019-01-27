@@ -1,0 +1,105 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "simulation",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "ListMenuIntent",
+                    "slots": [],
+                    "samples": [
+                        "what else can i make",
+                        "What else is there to eat",
+                        "What else can I cook",
+                        "What can I prepare to eat",
+                        "List what I can cook",
+                        "What is available to cook",
+                        "What can i eat",
+                        "What's available to cook",
+                        "What's for breakfast",
+                        "What's for lunch",
+                        "What's for dinner",
+                        "What is there to eat",
+                        "What can I cook",
+                        "What's on the menu"
+                    ]
+                },
+                {
+                    "name": "UnityLoadRecipeIntent",
+                    "slots": [
+                        {
+                            "name": "Food",
+                            "type": "AMAZON.Food"
+                        }
+                    ],
+                    "samples": [
+                        "How to make a {Food}",
+                        "How to make {Food}",
+                        "make {Food} for me",
+                        "make {Food}",
+                        "I want to make a {Food}",
+                        "I want to eat a {Food}",
+                        "I want to cook a {Food}",
+                        "{Food}",
+                        "Can you help me cook {Food}",
+                        "Can you help me make {Food}",
+                        "I want the recipe for {Food}",
+                        "Give me the recipe for {Food}",
+                        "I want to eat {Food}",
+                        "I want to cook {Food}",
+                        "I want to make {Food}"
+                    ]
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Credits",
+                    "slots": [],
+                    "samples": [
+                        "who developed the simulation",
+                        "who created this",
+                        "who were the minds behind this simulation",
+                        "who made this simulation",
+                        "Who are the creators of this skill",
+                        "Who made this skill"
+                    ]
+                },
+                {
+                    "name": "EasterEggIntent",
+                    "slots": [],
+                    "samples": [
+                        "Can i get a milkshake",
+                        "Can i buy a milkshake",
+                        "can i have a milkshake",
+                        "will you make me a milkshake",
+                        "I want ice cream",
+                        "Will you sell me an ice Cream cone",
+                        "I'd like to buy an ice cream cone",
+                        "Can you make me an ice cream cone",
+                        "may i have an ice cream cone",
+                        "Can i have an ice cream cone",
+                        "I'd like an ice cream cone"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
