@@ -1,0 +1,96 @@
+fileFormatVersion: 2
+guid: a77c506043566f448ae654e0d06f04e0
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: arch_glass_ls
+    2800000: arch_glass_ls - baseColor
+    2800002: arch_glass_ls - normal
+    2800004: arch_glass_ls - height
+    2800006: arch_glass_ls - ambientOcclusion
+    2800008: arch_glass_ls - metallic
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: arch_glass_ls
+    prototypeName: arch_glass_ls
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://arch_glass_ls\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,height,ambientOcclusion,metallic
+    texturePackingList:
+    - outputName: baseColor
+      alphaSource: opacity
+    - outputName: normal
+      alphaSource: normal
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: height
+      alphaSource: height
+    - outputName: opacity
+      alphaSource: opacity
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    - outputName: metallic
+      alphaSource: smoothness
+    textureParameters:
+    - textureName: arch_glass_ls - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: arch_glass_ls - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: arch_glass_ls - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: arch_glass_ls - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: arch_glass_ls - opacity
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: arch_glass_ls - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: arch_glass_ls - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    - outputName: opacity
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []

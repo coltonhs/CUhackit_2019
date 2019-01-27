@@ -1,0 +1,43 @@
+fileFormatVersion: 2
+guid: 72e31213c80521f41b04fc7d06dc4cba
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Grunge Map 12 Bitmap
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Grunge Map 12 Bitmap
+    prototypeName: Grunge Map 12 Bitmap
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://grunge_map_12_bitmap\" label=\"\" >\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: 
+    texturePackingList:
+    - outputName: output
+      alphaSource: output
+    textureParameters:
+    - textureName: Grunge Map 12 Bitmap - UNKNOWN
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: output
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 256
+      textureHeight: 256
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {instanceID: 0}
+    generatedTextures: []

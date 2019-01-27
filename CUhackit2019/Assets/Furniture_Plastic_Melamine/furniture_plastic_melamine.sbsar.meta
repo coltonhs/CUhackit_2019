@@ -1,0 +1,114 @@
+fileFormatVersion: 2
+guid: 46ad662060f74cc48b3e0ac6b16f5f57
+ScriptedImporter:
+  fileIDToRecycleName:
+    2100000: Furniture plastic melamine
+    2800000: Furniture plastic melamine - baseColor
+    2800002: Furniture plastic melamine - normal
+    2800004: Furniture plastic melamine - metallic
+    2800006: Furniture plastic melamine - ambientOcclusion
+    2800008: Furniture plastic melamine - height
+    11400000: sbsar
+    11400002: graph0
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 232528478, guid: 43a8bbf65be290d44ba52b94476242b9, type: 3}
+  version: 17
+  mGraphInstanceData:
+  - graphLabel: Furniture plastic melamine
+    prototypeName: Furniture plastic melamine
+    graphDescIndex: 0
+    generateAllOutputs: 0
+    generateMipMaps: 1
+    preset: " <sbspreset pkgurl=\"pkg://furniture_plastic_melamine\" label=\"\" >\n
+      \ <presetinput identifier=\"$outputsize\" uid=\"4062003056\" type=\"8\" value=\"11,11\"
+      />\n </sbspreset>\n"
+    shaderName: Standard
+    outputNames: baseColor,normal,metallic,ambientOcclusion,height
+    texturePackingList:
+    - outputName: diffuse
+      alphaSource: diffuse
+    - outputName: baseColor
+      alphaSource: baseColor
+    - outputName: normal
+      alphaSource: normal
+    - outputName: specular
+      alphaSource: specular
+    - outputName: glossiness
+      alphaSource: glossiness
+    - outputName: roughness
+      alphaSource: roughness
+    - outputName: metallic
+      alphaSource: smoothness
+    - outputName: ambientOcclusion
+      alphaSource: ambientOcclusion
+    - outputName: height
+      alphaSource: height
+    textureParameters:
+    - textureName: Furniture plastic melamine - glossiness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Furniture plastic melamine - diffuse
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Furniture plastic melamine - baseColor
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Furniture plastic melamine - normal
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Furniture plastic melamine - specular
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Furniture plastic melamine - roughness
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Furniture plastic melamine - metallic
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Furniture plastic melamine - ambientOcclusion
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    - textureName: Furniture plastic melamine - height
+      wrapMode: 0
+      filterMode: 1
+      aniso: 1
+    colorSpaceList:
+    - outputName: diffuse
+      bLinear: 0
+    - outputName: baseColor
+      bLinear: 0
+    - outputName: normal
+      bLinear: 1
+    - outputName: specular
+      bLinear: 0
+    - outputName: glossiness
+      bLinear: 1
+    - outputName: roughness
+      bLinear: 1
+    - outputName: metallic
+      bLinear: 1
+    - outputName: ambientOcclusion
+      bLinear: 1
+    - outputName: height
+      bLinear: 1
+    inputTextureMap: []
+    targetSettingList:
+    - label: 
+      bLockRatio: 1
+      textureWidth: 2048
+      textureHeight: 2048
+      textureFormat: 0
+      bGenerateOnLoad: 1
+    material: {fileID: 2100000, guid: 46ad662060f74cc48b3e0ac6b16f5f57, type: 3}
+    generatedTextures: []
